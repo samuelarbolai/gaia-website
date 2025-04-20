@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaia Ingeniería Ambiental</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <script src="components/header.js" defer></script>
-    <script src="components/footer.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <!-- Header will be inserted by JavaScript -->
-    <header-component></header-component>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.jpeg" alt="Gaia Ingeniería Ambiental" class="logo">
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Open mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
 
     <!-- Main Content -->
     <main>
         <section class="hero">
             <div class="container">
-                <h1>GAIA INGENIERÍA AMBIENTAL</h1>
+                <h1>GERENCIA INMOBILIARIA</h1>
                 <p class="tagline">GENERANDO VALOR CON LA EFICIENCIA Y RESPONSABILIDAD DE UN EQUIPO DE ARQUITECTOS E INGENIEROS ALTAMENTE CALIFICADOS</p>
             </div>
         </section>
@@ -28,65 +44,75 @@
                 <h2>Nuestros Servicios</h2>
                 
                 <div class="service-card">
-                    <h3>GERENCIA INMOBILIARIA</h3>
-                    <p>Servicio integral de gestión inmobiliaria con un equipo profesional altamente calificado.</p>
+                    <div class="service-header">
+                        <h3>CONSTRUCCIÓN NUEVOS DESARROLLOS</h3>
+                        <div class="toggle-icon"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h4>INSUMOS BÁSICOS</h4>
+                                <p>DOCUMENTOS LEGALES, ESCRITURAS, PREDIALES, CERTIFICADOS DE LIBERTAD</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>PREOPERATIVOS</h4>
+                                <p>DISEÑOS, FACTIBILIDADES, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>OBRA</h4>
+                                <p>CONTRATACIONES Y EJECUCIÓN</p>
+                            </div>
+                        </div>
+                        <p class="service-highlight">GAIA TRASLADA A SUS CLIENTES Y ASOCIADOS LOS DESCUENTOS Y ECONOMIAS FRUTO DEL CORRECTO EJERCICIO DE LA GERENCIA DE PROYECTOS</p>
+                    </div>
                 </div>
 
                 <div class="service-card">
-                    <h3>CONSTRUCCIÓN NUEVOS DESARROLLOS</h3>
-                    <div class="service-details">
-                        <div class="detail-item">
-                            <h4>INSUMOS BÁSICOS</h4>
-                            <p>DOCUMENTOS LEGALES, ESCRITURAS, PREDIALES, CERTIFICADOS DE LIBERTAD</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>PREOPERATIVOS</h4>
-                            <p>DISEÑOS, FACTIBILIDADES, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>OBRA</h4>
-                            <p>CONTRATACIONES Y EJECUCIÓN</p>
-                        </div>
+                    <div class="service-header">
+                        <h3>AMPLIACIÓN DE INMUEBLES</h3>
+                        <div class="toggle-icon"></div>
                     </div>
-                    <p class="service-highlight">GAIA TRASLADA A SUS CLIENTES Y ASOCIADOS LOS DESCUENTOS Y ECONOMIAS FRUTO DEL CORRECTO EJERCICIO DE LA GERENCIA DE PROYECTOS</p>
+                    <div class="service-content">
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h4>INSUMOS BÁSICOS</h4>
+                                <p>DOCUMENTOS LEGALES Y LEVANTAMIENTO DE LAS CONSTRUCCIONES EXISTENTES CON SUS INSTALACIONES TÉCNICAS</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>PREOPERATIVOS</h4>
+                                <p>DISEÑOS, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>OBRA</h4>
+                                <p>CONTRATACIONES Y EJECUCIÓN</p>
+                            </div>
+                        </div>
+                        <p class="service-highlight">GAIA EN COORDINACIÓN CON SUS CLIENTES Y ASOCIADOS REALIZA EL ESTUDIO DE ALTERNATIVAS Y COMPARATIVOS PARA ENCONTRAR LAS MEJORES PROPUESTAS A DESARROLLAR</p>
+                    </div>
                 </div>
 
                 <div class="service-card">
-                    <h3>AMPLIACIÓN DE INMUEBLES</h3>
-                    <div class="service-details">
-                        <div class="detail-item">
-                            <h4>INSUMOS BÁSICOS</h4>
-                            <p>DOCUMENTOS LEGALES Y LEVANTAMIENTO DE LAS CONSTRUCCIONES EXISTENTES CON SUS INSTALACIONES TÉCNICAS</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>PREOPERATIVOS</h4>
-                            <p>DISEÑOS, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>OBRA</h4>
-                            <p>CONTRATACIONES Y EJECUCIÓN</p>
-                        </div>
+                    <div class="service-header">
+                        <h3>MANTENIMIENTO DE EDIFICACIONES Y EQUIPOS</h3>
+                        <div class="toggle-icon"></div>
                     </div>
-                    <p class="service-highlight">GAIA EN COORDINACIÓN CON SUS CLIENTES Y ASOCIADOS REALIZA EL ESTUDIO DE ALTERNATIVAS Y COMPARATIVOS PARA ENCONTRAR LAS MEJORES PROPUESTAS A DESARROLLAR</p>
-                </div>
-
-                <div class="service-card">
-                    <h3>MANTENIMIENTO DE EDIFICACIONES Y EQUIPOS</h3>
-                    <div class="service-details">
-                        <div class="detail-item">
-                            <h4>INSUMOS BÁSICOS</h4>
-                            <p>LEVANTAMIENTO DE INVENTARIOS DE EQUIPOS E INSTALACIONES</p>
+                    <div class="service-content">
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h4>INSUMOS BÁSICOS</h4>
+                                <p>LEVANTAMIENTO DE INVENTARIOS DE EQUIPOS E INSTALACIONES</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>PREOPERATIVOS</h4>
+                                <p>ESTADO ACTUAL Y PROGRAMA DE MANTENIMIENTO Y MEJORA EFICIENTE</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>OPERATIVOS</h4>
+                                <p>CONTRATACIONES Y EJECUCIÓN</p>
+                            </div>
                         </div>
-                        <div class="detail-item">
-                            <h4>PREOPERATIVOS</h4>
-                            <p>ESTADO ACTUAL Y PROGRAMA DE MANTENIMIENTO Y MEJORA EFICIENTE</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>OPERATIVOS</h4>
-                            <p>CONTRATACIONES Y EJECUCIÓN</p>
-                        </div>
+                        <p class="service-highlight">GAIA Y SU EQUIPO TÉCNICO BRINDAN UNA ATENCIÓN PERMANENTE CUMPLIENDO CON DETALLADOS PROGRAMAS DE MANTENIMIENTO PARA EL BIENESTAR DE LOS USUSRIOS Y MAYOR EFICIENCIA EN LAS INVERCIONES EN EQUIPOS</p>
                     </div>
-                    <p class="service-highlight">GAIA Y SU EQUIPO TÉCNICO BRINDAN UNA ATENCIÓN PERMANENTE CUMPLIENDO CON DETALLADOS PROGRAMAS DE MANTENIMIENTO PARA EL BIENESTAR DE LOS USUSRIOS Y MAYOR EFICIENCIA EN LAS INVERCIONES EN EQUIPOS</p>
                 </div>
             </div>
         </section>
@@ -100,7 +126,7 @@
                     <p><strong>Celular:</strong> 3142191267</p>
                 </div>
                 <div class="contact-form">
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Nombre</label>
                             <input type="text" id="name" name="name" required>
@@ -120,7 +146,30 @@
         </section>
     </main>
 
-    <!-- Footer will be inserted by JavaScript -->
-    <footer-component></footer-component>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p>Email: gerenciainmobiliaaria@gaia.com.co</p>
+                    <p>Arq. Jorge Plazas - cel 3142191267</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; <span id="year"></span> Gaia Ingeniería Ambiental. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
