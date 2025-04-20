@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaia Ingeniería Ambiental</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="components/header.js" defer></script>
+    <script src="components/footer.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header will be inserted by JavaScript -->
+    <header-component></header-component>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>GAIA INGENIERÍA AMBIENTAL</h1>
+                <p class="tagline">GENERANDO VALOR CON LA EFICIENCIA Y RESPONSABILIDAD DE UN EQUIPO DE ARQUITECTOS E INGENIEROS ALTAMENTE CALIFICADOS</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                
+                <div class="service-card">
+                    <h3>GERENCIA INMOBILIARIA</h3>
+                    <p>Servicio integral de gestión inmobiliaria con un equipo profesional altamente calificado.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>CONSTRUCCIÓN NUEVOS DESARROLLOS</h3>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <h4>INSUMOS BÁSICOS</h4>
+                            <p>DOCUMENTOS LEGALES, ESCRITURAS, PREDIALES, CERTIFICADOS DE LIBERTAD</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>PREOPERATIVOS</h4>
+                            <p>DISEÑOS, FACTIBILIDADES, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>OBRA</h4>
+                            <p>CONTRATACIONES Y EJECUCIÓN</p>
+                        </div>
+                    </div>
+                    <p class="service-highlight">GAIA TRASLADA A SUS CLIENTES Y ASOCIADOS LOS DESCUENTOS Y ECONOMIAS FRUTO DEL CORRECTO EJERCICIO DE LA GERENCIA DE PROYECTOS</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>AMPLIACIÓN DE INMUEBLES</h3>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <h4>INSUMOS BÁSICOS</h4>
+                            <p>DOCUMENTOS LEGALES Y LEVANTAMIENTO DE LAS CONSTRUCCIONES EXISTENTES CON SUS INSTALACIONES TÉCNICAS</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>PREOPERATIVOS</h4>
+                            <p>DISEÑOS, PERMISOS Y LICENCIAS, PRESUPUESTOS Y PROGRAMAS</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>OBRA</h4>
+                            <p>CONTRATACIONES Y EJECUCIÓN</p>
+                        </div>
+                    </div>
+                    <p class="service-highlight">GAIA EN COORDINACIÓN CON SUS CLIENTES Y ASOCIADOS REALIZA EL ESTUDIO DE ALTERNATIVAS Y COMPARATIVOS PARA ENCONTRAR LAS MEJORES PROPUESTAS A DESARROLLAR</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>MANTENIMIENTO DE EDIFICACIONES Y EQUIPOS</h3>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <h4>INSUMOS BÁSICOS</h4>
+                            <p>LEVANTAMIENTO DE INVENTARIOS DE EQUIPOS E INSTALACIONES</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>PREOPERATIVOS</h4>
+                            <p>ESTADO ACTUAL Y PROGRAMA DE MANTENIMIENTO Y MEJORA EFICIENTE</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>OPERATIVOS</h4>
+                            <p>CONTRATACIONES Y EJECUCIÓN</p>
+                        </div>
+                    </div>
+                    <p class="service-highlight">GAIA Y SU EQUIPO TÉCNICO BRINDAN UNA ATENCIÓN PERMANENTE CUMPLIENDO CON DETALLADOS PROGRAMAS DE MANTENIMIENTO PARA EL BIENESTAR DE LOS USUSRIOS Y MAYOR EFICIENCIA EN LAS INVERCIONES EN EQUIPOS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contáctenos</h2>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> gerenciainmobiliaaria@gaia.com.co</p>
+                    <p><strong>Arquitecto:</strong> Jorge Plazas</p>
+                    <p><strong>Celular:</strong> 3142191267</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer will be inserted by JavaScript -->
+    <footer-component></footer-component>
+</body>
+</html>
