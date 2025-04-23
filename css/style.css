@@ -78,8 +78,8 @@ header .container {
     align-items: center;
 }
 
-.logo {
-    height: 60px;
+.logo-horizontal {
+    height: 40px;
     width: auto;
 }
 
@@ -373,6 +373,10 @@ footer .contact-info {
         display: block;
     }
 
+    .logo-horizontal {
+        height: 75px;
+    }
+
     .hero-container {
         flex-direction: column;
     }
@@ -403,6 +407,10 @@ footer .contact-info {
 
     h2 {
         font-size: 1.6rem;
+    }
+
+    .logo-horizontal {
+        height: 75px;
     }
 
     .hero {
